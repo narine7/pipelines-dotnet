@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name:: Windows
+  name: Windows
   demands: Agent.Name -equals server4
 
 variables:
