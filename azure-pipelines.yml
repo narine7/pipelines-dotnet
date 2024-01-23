@@ -8,7 +8,8 @@ trigger:
 
 pool:
   name: Windows
-  Demands: Agent.Name -equals 'server2'
+  #Demands: Agent.Name -equals 'server2'
+  demands: Agent.Name -equals 'server2'
 
 variables:
   buildConfiguration: 'Release'
