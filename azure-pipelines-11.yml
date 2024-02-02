@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: Windows
-  demands: Agent.Name -equals=server1
+  demands: Agent.Name -equals = server1
 
 variables:
   solution: '**/*.sln'
